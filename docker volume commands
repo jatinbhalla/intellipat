@@ -1,0 +1,7 @@
+docker volume create <volume>
+docker run -it -v <source directory>:<destination directory> - d <container-name>
+docker ps
+docker ps -a
+docker exec -it container name bash
+docker volume ls
+docker volume inspect <volume name>
